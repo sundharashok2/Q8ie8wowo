@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" type="x-icon" href="https://img.freepik.com/premium-vector/minimalistic-round-logo-template-white-icon-gym-man-silhouette-black-background-modern-logotype-concept-buisness-identity-tshirts-print-tattoo-vector-illustration_159025-3183.jpg?w=740">
+        <title>BMI CALCULATER|BODY MASS INDEX CALCULATER</title>
+        <meta name="keywords" content="bmi calculater, body mass index calculater,weight calculater,health calculater,fitness calculater,calculate bmi,bmi chart,weight loss calculater,ideal weight calculater,healthy weight calculater,obesity calculater,underweight calculater,over weight calculater,body fat calculater,health risk assessment,
+        bmi calculater for adults,bmi calculater for children,bmi calculater for teenagers,accurate bmi calculater,free bmi calculater online,bmi calculater with height and weight,bmi calculater for men,bmi calculater for women,bmi calculater with age and gender,bmi calculater for health risks,bmi,weight,calculater">
+        <meta name="description" content="calculate your body mass index(bmi) with our free online bmi calculater.get your bmi score,ideal weight range and health risk assessment.easy to use and accurate results">
+        <meta name="author" content="sundhar A">
+        <style>
+            *{
+                margin: 0;
+                padding:0;
+                box-sizing: border-box;
+            }
+          body{
+          background-image: url('https://th.bing.com/th/id/R.2d7375620df479e9591ae5b94e6eda20?rik=tI%2f%2bqU%2bsNGoYew&riu=http%3a%2f%2fgunsmithfitness.com%2fcdn%2fshop%2farticles%2fwhat-is-a-face-pull-exercise-and-what-muscles-does-it-work-750581.jpg%3fv%3d1695576513%26width%3d2048&ehk=ePVZixRGWwUmpO4nHkDk2OK0DRo5GvkaArzJNSAFR0A%3d&risl=&pid=ImgRaw&r=0');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-attachment: fixed;
+          background-position: center;
+            }
+            .nav {
+                display:flex;
+                background-color: black;
+                align-items: center;
+                
+            
+
+            }
+            .nav h3{
+                color: white;
+            }
+         
+
+            .container{
+        width: 400px;
+        padding: 25px 35px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background: #fff;
+        border-radius: 10px;
+            }
+            .container input{
+        width: 100%;
+        height: 50px;
+        border: 1px solid #494eea;
+        outline: 0;
+        padding: 10px;
+        margin: 10px 0 20px;
+        border-radius: 5px;
+    }.container button{
+        width: 100%;
+        height: 50px;
+        background: #494eea;
+        color: #fff;
+        border: 0;
+        outline: 0;
+        border-radius: 5px;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+        cursor:grab;
+        margin: 20px 0;
+        font-weight: 500;
+    }
+    h3{
+        text-align: center;
+        font-size: 30px;
+        margin: 0;
+
+    }
+    .gallery{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 50px 0;
+        padding-top: 35%;
+        justify-content: center;
+    }
+    header{
+       width: 100%;
+       text-align: center;
+       position: sticky;
+    }
+ header h2{
+        font-size: 2em;
+        text-transform: uppercase;
+        color: #fff;
+    }
+   .content{
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: .4s;
+    background: #f2f2f2;
+
+    
+   }
+  .content img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+   }
+  .content p{
+    text-align: center;
+    color: #b2bec3;
+    padding-top: 0 8px;
+   }
+  .content h6{
+    font-size: 26px;
+    text-align: center;
+    color: #222f3e;
+   }
+   .content button{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+   }
+   .buy1{
+    background: #494eea;
+   }
+   
+ @media  screen and (max-width:1000px){
+    body{
+        background-image: url('https://th.bing.com/th/id/R.2d7375620df479e9591ae5b94e6eda20?rik=tI%2f%2bqU%2bsNGoYew&riu=http%3a%2f%2fgunsmithfitness.com%2fcdn%2fshop%2farticles%2fwhat-is-a-face-pull-exercise-and-what-muscles-does-it-work-750581.jpg%3fv%3d1695576513%26width%3d2048&ehk=ePVZixRGWwUmpO4nHkDk2OK0DRo5GvkaArzJNSAFR0A%3d&risl=&pid=ImgRaw&r=0');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-attachment: fixed;
+          background-position: center;
+    }
+    .container button{
+      
+    }
+ .nav img{
+        width: 110px;
+    }
+   
+   .content{
+    width: 400px;
+
+   } 
+   .container{
+    position: fixed;
+    top: 30%;
+    right: 20%;
+    }
+   .gallery{
+    position: fixed;
+    padding-right: 2%;
+    top: 25%;
+   }
+   .main{
+    padding-right: 30%;
+    
+   }
+   
+
+ } 
+   
+        </style>
+    </head>
+<body>
+    <nav class="nav">
+        <img src="https://img.freepik.com/premium-vector/minimalistic-round-logo-template-white-icon-gym-man-silhouette-black-background-modern-logotype-concept-buisness-identity-tshirts-print-tattoo-vector-illustration_159025-3183.jpg?w=740" width="75px" alt="bmi logo">
+        <h3>BMI CALCULATER</h3>
+        
+    </nav>
+<div class="main">
+    <div class="container">
+    <p>ENTER YOUR WEIGHT IN <b>KG</b></p>
+    <input type="number" placeholder="WEIGHT kg's" id="kgtext">
+    <p>ENTER YOUR HEIGHT IN <b>Meter</b></p>
+    <input type="number" placeholder="HEIGHT m" id="mtext">
+    <b><p style="font-size: large;" id="result"></p></b>
+    <b><p id = "ans"></p></b>
+    <button onclick="bmi()">calu</button>
+</div>
+</div>
+
+<div class="gallery">
+   <header> <h2>Products</h2></header>
+    <div class="content">
+        <img src="https://cdn.shopify.com/s/files/1/0094/4062/4737/files/HYDRATEFlavorGUAVALARGE_1000x1000_b864010c-83a6-4e85-81fe-fa89436f1fe6.png?v=1706286845">
+        <h3>HYDRATE</h3>
+        <p>Stay Hydrated And Full Of Energy Even on your Most Hungover Of Mornings</p>
+        <h6>$40.25</h6>
+        <button class="buy1" onclick="vs()">More info</button>
+
+      </div>
+</div>
+
+<script>
+    function vs(){
+            window.open("https://www.digistore24.com/redir/531197/Ananthan007/");
+   }
+   function bmi(){
+    let kgtext=document.getElementById("kgtext");
+   let mtext =document.getElementById("mtext");
+   let result = document.getElementById("result");
+   let ans = document.getElementById("ans");
+     bg = kgtext.value/mtext.value;
+     if(bg < 18.5){
+      result.innerHTML=  ("underweight - ") +  bg;
+      result.style.color='red' 
+     }
+     else if (bg>25.0) {
+        result.innerHTML=("overweight-")+ bg;
+        result.style.color='red'
+     } 
+     else{
+        result.innerHTML=("your weight is normal-")+ bg;
+        result.style.color='green'
+     }
+   }
+</script> 
+</body>
+</html>
+  
